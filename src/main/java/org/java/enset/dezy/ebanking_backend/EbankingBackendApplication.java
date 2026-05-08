@@ -9,6 +9,7 @@ import org.java.enset.dezy.ebanking_backend.enums.OperationType;
 import org.java.enset.dezy.ebanking_backend.repositories.AccountOperationRepository;
 import org.java.enset.dezy.ebanking_backend.repositories.BankAccountRepository;
 import org.java.enset.dezy.ebanking_backend.repositories.CustomerRepository;
+import org.java.enset.dezy.ebanking_backend.services.BankAccountService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -25,6 +26,10 @@ public class EbankingBackendApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EbankingBackendApplication.class, args);
 	}
+
+
+
+
 @Bean
     CommandLineRunner start(CustomerRepository customerRepository, BankAccountRepository bankAccountRepository, AccountOperationRepository accountOperationRepository) {
         return args -> {
