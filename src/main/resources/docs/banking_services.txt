@@ -1,0 +1,66 @@
+SERVICES BANCAIRES E-BANKING ENSET - Guide Détaillé
+
+=== COMPTE COURANT (CurrentAccount) ===
+
+Définition :
+Le compte courant est le compte bancaire principal destiné aux opérations quotidiennes. Il permet d'effectuer des paiements, virements et retraits sans restriction de fréquence.
+
+Caractéristiques :
+- Solde disponible à tout moment (balance)
+- Découvert autorisé (overDraft) : montant maximum que vous pouvez dépasser en dessous de zéro
+- Pas de limite sur le nombre d'opérations
+- Accès immédiat aux fonds déposés
+- Carte bancaire associée pour les paiements
+
+Découvert autorisé :
+Le découvert autorisé est une facilité de caisse accordée par la banque. Exemple : si votre solde est de 0 DH et votre découvert autorisé est de 9000 DH, vous pouvez dépenser jusqu'à 9000 DH supplémentaires. Des agios (intérêts) sont calculés sur le montant utilisé du découvert.
+
+Avantages :
+- Flexibilité pour les dépenses quotidiennes
+- Filet de sécurité avec le découvert autorisé
+- Idéal pour recevoir les salaires et paiements réguliers
+- Gestion aisée du budget mensuel
+
+=== COMPTE D'ÉPARGNE (SavingAccount) ===
+
+Définition :
+Le compte d'épargne est destiné à faire fructifier votre argent grâce à des intérêts. Il est adapté pour épargner à moyen et long terme.
+
+Caractéristiques :
+- Taux d'intérêt (interestRate) : pourcentage annuel appliqué sur votre solde
+- Intérêts calculés et crédités périodiquement (mensuel ou annuel)
+- Aucun découvert possible (le solde ne peut pas être négatif)
+- Retraits possibles mais peuvent être limités selon le contrat
+
+Taux d'intérêt :
+Le taux d'intérêt standard est de 2.6% par an. Exemple : si vous avez 10 000 DH sur votre compte épargne, vous recevrez 260 DH d'intérêts après un an. Les intérêts sont composés : ils s'ajoutent au capital et génèrent eux-mêmes des intérêts.
+
+Avantages :
+- Votre argent travaille pour vous grâce aux intérêts
+- Sécurité des fonds (garanti par le Fonds de Garantie des Dépôts)
+- Idéal pour constituer une épargne de précaution (3 à 6 mois de salaire recommandés)
+- Objectifs à moyen terme : achat immobilier, voyage, études
+
+Différence compte courant vs compte épargne :
+- Compte courant : pour les dépenses quotidiennes, découvert possible, pas d'intérêts
+- Compte épargne : pour faire fructifier l'argent, intérêts sur le solde, pas de découvert
+
+=== STATUTS DES COMPTES ===
+
+CREATED (Créé) :
+Le compte vient d'être ouvert mais n'est pas encore pleinement actif. Le client doit compléter les formalités d'activation (vérification d'identité, signature du contrat). Opérations limitées dans cet état.
+
+ACTIVATED (Activé) :
+État normal de fonctionnement. Toutes les opérations bancaires sont disponibles : dépôt, retrait, virement, consultation de solde et historique.
+
+SUSPENDED (Suspendu) :
+Le compte est temporairement bloqué. Causes possibles : activité suspecte détectée, demande du client, retard de paiement de frais, procédure judiciaire. Contactez votre conseiller pour réactiver le compte.
+
+=== PROFIL CLIENT ===
+
+Informations client gérées :
+- Nom complet
+- Adresse email (identifiant unique)
+- Liste des comptes associés (courant et/ou épargne)
+
+Un client peut avoir plusieurs comptes bancaires. Chaque compte est indépendant avec son propre solde, historique d'opérations et caractéristiques spécifiques.

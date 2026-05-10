@@ -1,0 +1,56 @@
+FAQ E-BANKING ENSET - Questions Fréquemment Posées
+
+=== ACCÈS ET SÉCURITÉ ===
+
+Q: Comment accéder à mon espace e-banking ?
+R: Vous pouvez accéder à votre espace e-banking via l'application web sécurisée. Utilisez vos identifiants (email et mot de passe) fournis lors de l'ouverture de votre compte. La connexion est protégée par un token JWT valable pendant une session.
+
+Q: J'ai oublié mon mot de passe, que faire ?
+R: Contactez le support bancaire à l'adresse support@ebanking-enset.ma ou appelez le numéro vert 0800-123-456. Un conseiller vous guidera pour réinitialiser votre mot de passe de manière sécurisée.
+
+Q: Mon compte est-il sécurisé ?
+R: Oui, notre système utilise Spring Security avec OAuth2 JWT pour authentifier toutes les requêtes. Toutes les communications sont chiffrées via HTTPS/TLS.
+
+=== GESTION DES COMPTES ===
+
+Q: Comment consulter mon solde ?
+R: Connectez-vous à l'interface e-banking et accédez à la section "Mes Comptes". Le solde de chaque compte (courant et épargne) s'affiche en temps réel.
+
+Q: Puis-je avoir plusieurs comptes bancaires ?
+R: Oui, vous pouvez posséder plusieurs comptes. Chaque client peut avoir un compte courant et un compte épargne. Les deux types de comptes sont affichés dans votre tableau de bord.
+
+Q: Quels sont les statuts possibles d'un compte ?
+R: Un compte peut avoir trois statuts : CREATED (créé, en attente d'activation), ACTIVATED (actif, toutes les opérations sont possibles) ou SUSPENDED (suspendu, les opérations sont bloquées). Si votre compte est suspendu, contactez un conseiller.
+
+Q: Comment ouvrir un nouveau compte ?
+R: La création de compte se fait en agence bancaire ou via une demande en ligne. Un conseiller vous contactera pour finaliser les démarches. Vous aurez besoin d'une pièce d'identité valide et d'un justificatif de domicile.
+
+=== OPÉRATIONS BANCAIRES ===
+
+Q: Quels types d'opérations puis-je effectuer en ligne ?
+R: Sur l'e-banking, vous pouvez effectuer des débits (retrait, paiement), des crédits (dépôt) et des virements entre comptes. Toutes les opérations sont tracées et disponibles dans l'historique.
+
+Q: Y a-t-il des frais sur les opérations ?
+R: Les virements internes entre vos comptes sont gratuits. Des frais peuvent s'appliquer pour les virements externes selon votre contrat bancaire. Consultez votre convention de compte pour le détail des tarifs.
+
+Q: Mes opérations sont-elles instantanées ?
+R: Les opérations de débit et crédit sont traitées en temps réel dans le système. Les virements vers des banques externes peuvent prendre 1 à 3 jours ouvrés selon les accords interbancaires.
+
+=== HISTORIQUE ET RELEVÉS ===
+
+Q: Comment consulter mon historique de transactions ?
+R: Dans la section "Historique", vous pouvez voir toutes vos opérations avec la date, le montant, le type (DEBIT/CREDIT) et la description. L'historique est paginé pour une navigation facile.
+
+Q: Puis-je télécharger mes relevés bancaires ?
+R: Oui, vous pouvez exporter votre historique au format PDF ou CSV depuis la section "Relevés". Les relevés sont disponibles pour les 12 derniers mois.
+
+Q: Combien de temps les transactions restent-elles dans l'historique ?
+R: Toutes les transactions sont conservées indéfiniment dans notre système. Vous pouvez filtrer par période (semaine, mois, trimestre, année) pour retrouver une opération spécifique.
+
+=== ASSISTANCE ET SUPPORT ===
+
+Q: Comment contacter le support client ?
+R: Notre équipe est disponible du lundi au vendredi de 8h à 18h. Email : support@ebanking-enset.ma | Téléphone : 0800-123-456 (numéro gratuit) | Chat en direct sur l'application.
+
+Q: Que faire en cas d'opération suspecte ?
+R: Signalez immédiatement toute opération non reconnue via le bouton "Signaler une fraude" dans l'application ou contactez le support d'urgence au 0800-999-000, disponible 24h/24.

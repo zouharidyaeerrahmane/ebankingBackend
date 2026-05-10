@@ -1,0 +1,101 @@
+OPÉRATIONS BANCAIRES E-BANKING ENSET - Guide Complet
+
+=== OPÉRATION DE DÉBIT (DEBIT) ===
+
+Définition :
+Un débit est une sortie d'argent de votre compte. Chaque opération de débit réduit votre solde disponible.
+
+Cas d'usage :
+- Paiement d'une facture
+- Retrait d'espèces
+- Achat en ligne ou en magasin
+- Virement vers un autre compte
+
+Conditions pour un débit :
+- Le compte doit être au statut ACTIVATED
+- Le solde après l'opération ne doit pas dépasser le découvert autorisé (pour les comptes courants)
+- Si le solde est insuffisant, l'opération est refusée avec le message "Balance not sufficient"
+- Pour les comptes épargne, aucun découvert n'est possible
+
+Exemple :
+Solde actuel : 5000 DH | Débit demandé : 3000 DH | Solde après : 2000 DH → Opération acceptée
+Solde actuel : 500 DH | Débit demandé : 3000 DH | Découvert autorisé : 9000 DH | Solde après : -2500 DH → Accepté (découvert utilisé)
+Solde actuel : 500 DH | Débit demandé : 10000 DH | Découvert autorisé : 2000 DH → Refusé (solde insuffisant)
+
+=== OPÉRATION DE CRÉDIT (CREDIT) ===
+
+Définition :
+Un crédit est une entrée d'argent sur votre compte. Chaque opération de crédit augmente votre solde disponible.
+
+Cas d'usage :
+- Réception d'un virement
+- Dépôt d'espèces
+- Réception de salaire ou paiement
+- Remboursement d'un client
+
+Conditions pour un crédit :
+- Le compte doit être au statut ACTIVATED
+- Aucune limite de montant maximale (selon votre contrat)
+- Le crédit est immédiatement disponible dans le solde
+- Un crédit ne peut jamais être refusé pour raison de solde insuffisant
+
+Exemple :
+Solde actuel : 1000 DH | Crédit reçu : 5000 DH | Solde après : 6000 DH
+
+=== VIREMENT (TRANSFER) ===
+
+Définition :
+Un virement est le transfert d'un montant d'un compte source vers un compte destination. C'est une combinaison : débit du compte source + crédit du compte destination.
+
+Types de virements :
+1. Virement interne : entre deux comptes de la même banque (E-Banking ENSET)
+2. Virement externe : vers une banque tierce (délai de 1 à 3 jours ouvrés)
+
+Comment effectuer un virement :
+1. Accédez à la section "Virements" dans l'application
+2. Saisissez l'identifiant du compte destination (ID unique)
+3. Entrez le montant à transférer
+4. Vérifiez les détails et confirmez l'opération
+5. Une confirmation par email est envoyée après validation
+
+Conditions :
+- Le compte source doit avoir un solde suffisant (solde + découvert autorisé ≥ montant)
+- Le compte source et destination doivent être au statut ACTIVATED
+- Un virement ne peut pas avoir un montant nul ou négatif
+- Le compte source doit être différent du compte destination
+
+Erreurs possibles :
+- "Balance not sufficient" : solde insuffisant même avec le découvert
+- "BankAccount not found" : l'identifiant du compte destination est incorrect
+- "Account suspended" : le compte source ou destination est suspendu
+
+=== HISTORIQUE DES OPÉRATIONS ===
+
+Informations disponibles pour chaque opération :
+- Date et heure de l'opération (operationDate)
+- Montant (amount) en Dirhams (DH)
+- Type : DEBIT ou CREDIT
+- Description de l'opération
+- Compte bancaire associé
+
+Consultation de l'historique :
+L'historique est disponible avec pagination. Vous pouvez définir le nombre d'opérations par page (par défaut : 10) et naviguer entre les pages. Le tri est chronologique (plus récent en premier).
+
+Filtres disponibles :
+- Par type d'opération (DEBIT / CREDIT)
+- Par période (date de début et date de fin)
+- Par montant (minimum et maximum)
+
+=== LIMITES ET PLAFONDS ===
+
+Plafonds journaliers (standards) :
+- Retrait ATM : 5 000 DH par jour
+- Paiement en ligne : 10 000 DH par jour
+- Virement interne : illimité (sous réserve de solde suffisant)
+- Virement externe : 50 000 DH par opération
+
+Ces plafonds peuvent être modifiés sur demande auprès de votre conseiller bancaire.
+
+=== TRAÇABILITÉ ET AUDIT ===
+
+Toutes les opérations sont enregistrées et non modifiables pour garantir l'intégrité financière. En cas de litige, vous pouvez demander un relevé certifié auprès de votre agence. La banque conserve l'historique complet conformément aux obligations légales (10 ans minimum).
