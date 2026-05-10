@@ -1,0 +1,4 @@
+jwt.secret=your_jwt_secret_min_32_chars
+groq.api.key=gsk_xxxxxxxxxxxxxxxxxxxx
+telegram.bot.token=123456789:AAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+spring.datasource.password=your_db_password
