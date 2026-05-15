@@ -5,5 +5,5 @@ import lombok.Data;
 @Data
 public class ChatRequest {
     private String question;
-    private String accountId; // optionnel — enrichit le contexte avec les données du compte
+    private String accountId;
 }
